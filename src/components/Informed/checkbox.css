@@ -1,0 +1,13 @@
+/* Custom styling for the checkbox-container */
+.custom-checkbox {
+    display: flex;         /* This ensures checkbox and label are inline */
+    align-items: center;   /* Align them vertically */
+  }
+  
+  .custom-checkbox .form-check-input {
+    margin-right: 8px;     /* Adjust the space between checkbox and label */
+  }
+
+  .custom-checkbox .form-check-label {
+    font-weight: normal;  /* Or you can use 'lighter' or a specific numeric value like 400 */
+  }
